@@ -1,6 +1,6 @@
 function myvideo() {
     var input, filter1, ul1, li1, a1, i1, txtValue1;
-    input = document.getElementById("mycourse");
+    input = document.getElementById("myvideo");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myULs");
     li = ul.getElementsByTagName("lis");
@@ -14,7 +14,6 @@ function myvideo() {
         }
     }
 }
-
 function video(){
 document.getElementById("srch").innerHTML="<input type='text' id='myvideo' onkeyup='myvideo()' placeholder='Search for videos..' title='Type in a name' style='max-width:200px;height:50px;border-radius:26px 40px;'>";
 
